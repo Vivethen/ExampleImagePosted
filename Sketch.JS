@@ -3,10 +3,7 @@ function setup() {
 }
 
 function draw() {
-	var x = 1
-  fill(mouseX)
-	ellipse(mouseX, mouseY, x, 200);
-
-	x +=  20
+  fill(mouseX + 50)
+	ellipse(mouseX, mouseY, 50, 200);
 }
 					
